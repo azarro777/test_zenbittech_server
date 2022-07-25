@@ -20,7 +20,7 @@ export class CustomersService {
     return this.customerRepository.find();
   }
 
-  findCustomersById(id: number) {
+  findCustomersById(id) {
     return this.customerRepository.findOne(id);
   }
 }

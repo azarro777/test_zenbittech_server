@@ -19,7 +19,7 @@ export class UsersService {
     return this.userRepository.find();
   }
 
-  findUsersById(id: number) {
+  findUsersById(id) {
     return this.userRepository.findOne(id);
   }
 }
